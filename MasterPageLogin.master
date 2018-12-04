@@ -1,0 +1,35 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPageLogin.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    </head>
+<body>
+
+    <form id="form1" runat="server">
+        <div id="container">
+  <div id="banner">
+      <p style="text-align: right"> &nbsp;
+          
+          
+      </p>
+      
+  </div>
+  
+  <div id="content">
+ </div>
+</div>
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+      
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
